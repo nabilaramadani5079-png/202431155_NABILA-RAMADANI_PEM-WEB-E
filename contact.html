@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Kontak</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html" class="active">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Form Request Project</h1>
+    <form class="contact-form">
+      <label>Nama Lengkap:</label>
+      <input type="text" name="nama" placeholder="Masukkan nama" required />
+
+      <label>Email:</label>
+      <input type="email" name="email" placeholder="Masukkan email" required />
+
+      <label>Jenis Layanan:</label>
+      <select name="layanan">
+        <option>Pembuatan Website</option>
+        <option>Konsultasi Teknologi</option>
+        <option>Review Portofolio</option>
+      </select>
+
+      <label>Deskripsi Proyek:</label>
+      <textarea name="pesan" rows="4" placeholder="Tuliskan detail proyek..."></textarea>
+
+      <label>
+        <input type="checkbox" name="setuju" required />
+        Saya setuju dengan syarat & ketentuan.
+      </label>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Nabila Ramadani | <a href="https://itpln.ac.id" target="_blank">ITPLN</a></p>
+  </footer>
+</body>
+</html>
